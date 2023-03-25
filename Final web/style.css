@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* logincss */
+
+.logincss {
+    font-family: "Lucida Console", Courier, monospace;
+    background-image: url("image/gun.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+
+    z-index: -1;
+    
+}
+
+.wholesection {
+    max-width: 470px;
+    width: 100%;
+    margin: auto;
+}
+
+form {
+    /* border: 3px solid #f1f1f1; */
+    display: flex;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.logincss h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+    max-width: 60%;
+    margin: auto;
+    max-width: max-content;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.logincss a{
+    color: silver;
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(31, 34, 31);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    width: 45%;
+    height: 100%;
+}
+
+img.gun {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    width: 50%;
+}
+
+.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* navigation bar */
+
+
+.mainmenu {
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    padding: 5px 0;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+}
+
+.mainmenu ul {
+    padding: 0.5em 0;
+    text-align: center;
+    display: flex;
+}
+
+.mainmenu li {
+    list-style: none;
+    padding: 0.1em 0.3em;
+}
+
+.mainmenu a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 0.25em 1em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 0;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.mainmenu a:hover {
+    background: rgb(171, 235, 221);
+    color: rgb(17, 3, 70);
+}
+
+
+
+/* head of the website */
+
+.mainhead{
+    margin: 75px 20px 10px 20px;
+}
+
+.mainhead h1{
+    max-width: max-content;
+    margin: 10px auto;
+    font-size: 35px;
+    color: purple;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.homepagecss img{
+    margin: auto;
+    width: 100%;
+}
+
+.mainhead img{
+    max-height: 150px;
+    width: 100%;
+}
+
+
+
+/* hompagecss */
+
+.homepagecss {
+    font-family: "Lucida Console", Courier, monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+   
+    
+}
+
+
+
+.homeback{
+    
+    background-image: url(image/artist.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    top:0;
+    left: 0;
+    z-index: -1;
+    /* opacity: 0.95; */
+    position: relative;
+}
+
+
+.homepagebody{
+    margin: 10px 20px 10px 20px;
+    
+}
+
+.homepagebody h2,
+.homepagebody h3,
+.homepagebody h4{
+    max-width: max-content;
+    margin: auto;
+    color: rgb(71, 137, 190);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+
+}
+
+.homepagecss h1{
+    color: silver;
+}
+
+.homepagebody h3{
+    padding-top: 50px;
+    font-size: 25px;
+    color: tomato;
+}
+
+.homepagebody h2{
+    font-size: 30px;
+    /* font-family: cursive; */
+    color: tomato;
+}
+
+.homepagebody img{
+    height: 500px;
+    position: relative;
+}
+
+.homepagebody video{
+    margin: auto;
+    width: 100%;
+}
+
+/* discipline css */
+
+.discipline{
+    background-color: rgb(204, 209, 248);
+}
+.disciplinebody{
+    margin: 10px 20px 10px 20px;
+}
+
+.disciplinebody img{
+    width: 100%;
+}
+
+.disciplinebody h2,
+.disciplinebody h3{
+    margin: auto;
+    max-width: max-content;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.disciplinebody h2{
+    
+    font-size: 30px;
+}
+
+.disciplinebody p{
+    font-size: 17px;
+}
+
+
+
+/* license css */
+.licences{
+    background-color: rgb(204, 209, 248);
+}
+
+.licensesbody{
+    margin: 10px 20px 10px 20px;
+}
+
+.licensesbody img{
+    width: 100%;
+}
+
+.licensesbody h2{
+    max-width: max-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+/* try shooting css */
+
+.shooting{
+    background-color: rgb(204, 209, 248);
+}
+.shootingbody{
+    margin: 10px 20px 10px 20px;
+    padding: 20px;
+    
+}
+
+.shootingbody img{
+    width: 100%;
+}
+
+.shootingbody h2{
+    max-width: max-content;
+    margin: auto;
+}
+
+.twoimages{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.twoimages .map{
+    width: 45%;
+    padding-right: 5%;
+}
+
+.twoimages .map2{
+    width: 45%;
+    padding-left: 5%;
+}
+
+
+
+
+/* coaching css */
+
+.coaching{
+    background-color: rgb(204, 209, 248);
+}
+
+.coachingbody{
+    margin: 10px 20px 10px 20px;
+}
+
+.coachingbody img{
+    width: 100%;
+}
+
+
+.coachingbody h2{
+    margin: auto;
+    max-width: max-content;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+
+/* footer */
+
+#page-footer { 
+	padding: 1.5em;
+	background: #000;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+#page-footer .name{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	padding-bottom: 1em;
+	width: 100%;
+    list-style: none;
+    text-transform: uppercase;
+} 
+
+#page-footer p{
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+#page-footer a{
+    color: white;
+    text-decoration: none;
+}
+
